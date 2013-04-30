@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 送别话的DNA
+tagline: 快到碗里来~~~
 ---
 {% include JB/setup %}
 
