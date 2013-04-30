@@ -23,7 +23,7 @@ menus:
     main:
     - Home: /
     - Archives: /archive.html
-    - About: /about.html
+    - About: /pages/about.html
     side:
     - Pages: /pages.html
     - Categories: /categories.html
