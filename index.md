@@ -2,6 +2,7 @@
 layout: page
 title: 送别花的DNA
 tagline: 快到碗里来~~~
+weight: 1
 ---
 {% include JB/setup %}
 
