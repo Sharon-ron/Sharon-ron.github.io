@@ -1,4 +1,4 @@
-{% for weight in (1..10) %}
+{% for weight in (10..1) %}
   {% for p in site.pages %}
     {% if p.weight == weight %}
       <li>
