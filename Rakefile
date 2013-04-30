@@ -44,7 +44,7 @@ end #JB
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
-  title = ENV["title"] || "new-post"
+  title = ENV["title"] || date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%H:%M')
   tags = ENV["tags"] || "[]"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
