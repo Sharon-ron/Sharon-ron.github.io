@@ -5,14 +5,14 @@ tagline: 快到碗里来~~~
 ---
 {% include JB/setup %}
 
-{% for post in site.posts limit 4 %}
+{% for post in site.posts limit 5 %}
 ## {{ post.date | date_to_string }} &raquo; [{{ post.title }}]({{ BASE_PATH }}{{ post.url }})
 
 <div class="entry-content">
 {{ post.content | strip_html | truncatewords:30}}
+<a href="{{ post.url }}">...Read more</a>
 </div>
 
-<a href="{{ post.url }}">Read more...</a><br><br>
 
 ---
 {% endfor %}
