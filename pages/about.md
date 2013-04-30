@@ -2,7 +2,6 @@
 layout: page
 title: "About"
 description: ""
-weigth: 10
 ---
 {% include JB/setup %}
 
