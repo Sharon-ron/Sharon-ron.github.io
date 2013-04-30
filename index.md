@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 送别话的DNA
+title: 送别花的DNA
 tagline: 快到碗里来~~~
 ---
 {% include JB/setup %}
