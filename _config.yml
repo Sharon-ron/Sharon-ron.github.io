@@ -19,6 +19,16 @@ author :
   #twitter : username
   #feedburner : feedname
 
+menus:
+    main:
+    - Home: /
+    - Archives: /archive.html
+    - About: /about.html
+    side:
+    - Pages: /pages.html
+    - Categories: /categories.html
+    - Tags: /tags.html
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
