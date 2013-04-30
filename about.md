@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Aboutme"
+title: "About"
 description: ""
 ---
 {% include JB/setup %}
 
-掌门叫王晓云是一直猪头！
+掌门叫王晓云是一只猪头！
