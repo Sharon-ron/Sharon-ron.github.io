@@ -74,7 +74,7 @@ JB :
   archive_path: /pages/archive.html
   #categories_path : /pages/categories.html
   tags_path : /pages/tags.html
-  atom_path : /rages/atom.xml
+  atom_path : /pages/atom.xml
   rss_path : /pages/rss.xml
 
   # Settings for comments helper

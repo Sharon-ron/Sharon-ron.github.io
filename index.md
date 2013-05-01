@@ -11,7 +11,7 @@ weight: 10
 
 <div class="entry-content">
 {{ post.content | strip_html | truncatewords:30}}
-<a href="{{ post.url }}">...Read more</a>
+<a href="{{ BASE_PATH }}{{ post.url }}">...Read more</a>
 </div>
 
 
