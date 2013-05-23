@@ -14,7 +14,6 @@ tagline: Site Tagline
 author :
   name : 王掌门
   email : xiaoyunwang1991@sina.com
-  weibo : 
   #github : username
   #twitter : username
   #feedburner : feedname
@@ -27,7 +26,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://sharon-ron.github.io
+production_url : http://sharonwang.org
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
